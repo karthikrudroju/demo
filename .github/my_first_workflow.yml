@@ -1,0 +1,11 @@
+name: My First Workflow
+run-name: ${{github.actor}} is learning github actions
+
+on: 
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - echo "Hello World!"
